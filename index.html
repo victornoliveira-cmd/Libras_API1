@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Site com VLibras</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>📚 Acessibilidade na Web</h1>
+        <p>Conheça a importância do VLibras</p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Sobre mim</h2>
+
+            <p><strong>Nome:</strong> Seu Nome</p>
+
+            <p><strong>Escola:</strong> Nome da sua Escola</p>
+        </section>
+
+
+        <section>
+            <h2>Trecho de um livro</h2>
+
+            <p>
+                "A leitura é uma forma de viajar sem sair do lugar.
+                Por meio dos livros podemos conhecer novas histórias,
+                lugares e aprender coisas diferentes."
+            </p>
+
+            <p>
+                A leitura também ajuda no desenvolvimento da criatividade,
+                do conhecimento e da imaginação.
+            </p>
+        </section>
+
+
+        <section>
+            <h2>Por que o VLibras é importante?</h2>
+
+            <p>
+                O VLibras é importante porque ajuda pessoas surdas
+                a terem acesso ao conteúdo de sites e páginas da internet.
+            </p>
+
+            <p>
+                Ele traduz textos e conteúdos digitais para a Língua
+                Brasileira de Sinais (Libras), tornando a internet
+                mais acessível e inclusiva.
+            </p>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>Site desenvolvido para atividade escolar.</p>
+    </footer>
+
+
+    <!-- VLibras -->
+
+    <div vw class="enabled">
+
+        <div vw-access-button class="active"></div>
+
+        <div vw-plugin-wrapper>
+
+            <div class="vw-plugin-top-wrapper"></div>
+
+        </div>
+
+    </div>
+
+
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+
+    <script>
+        new window.VLibras.Widget(
+            'https://vlibras.gov.br/app'
+        );
+    </script>
+
+</body>
+
+</html>
+
